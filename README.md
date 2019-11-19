@@ -1,4 +1,5 @@
 # GrammerAPI (My code is bad)
+The heroku instance may sleep so it may take a while to reply  
 A grammar fixer that uses AI to fix stuff  
 POST raw data to https://grammarapi.herokuapp.com/  
 
