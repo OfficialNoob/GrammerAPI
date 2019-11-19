@@ -1,4 +1,4 @@
-# GrammerAPI
+# GrammerAPI (My code is bad)
 A grammar fixer that uses AI to fix stuff  
 POST raw data to https://grammarapi.herokuapp.com/  
 
