@@ -7,7 +7,7 @@ Credit:
   https://github.com/bedapudi6788/deepcorrect
   https://github.com/bedapudi6788/deepsegment
 
-How to use:
+Basic Function:
 ```
 async function grammarapi(str) {
     let r = await fetch('https://grammarapi.herokuapp.com', {
@@ -17,3 +17,5 @@ async function grammarapi(str) {
     return r.text();
 }
 ```
+To use:
+```grammarapi("hi").then(a => console.log(a))```
