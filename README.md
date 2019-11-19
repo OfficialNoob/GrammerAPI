@@ -6,3 +6,14 @@ Models download at the deepcorrect github
 Credit:
   https://github.com/bedapudi6788/deepcorrect
   https://github.com/bedapudi6788/deepsegment
+
+How to use:
+```
+async function grammarapi(str) {
+    let r = await fetch('https://grammarapi.herokuapp.com', {
+        method: 'POST',
+        body: str
+    })
+    return r.text();
+}
+```
